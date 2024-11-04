@@ -1,7 +1,7 @@
 import { User } from "../models/user";
 import connection from "../models/myconnection";
 import { PostsManager } from "./post_manager";
-
+ 
 
 //singletton class for updating User
 
