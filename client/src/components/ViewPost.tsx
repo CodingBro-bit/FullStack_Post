@@ -8,6 +8,8 @@ import { useNavigate } from "react-router-dom";
 import { RootState } from "../redux/shop";
 
 
+//view every post
+
 export interface toEdit {
     content : string , 
     post_id : number , 
