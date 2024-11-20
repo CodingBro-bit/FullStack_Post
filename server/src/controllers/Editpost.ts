@@ -4,7 +4,7 @@ import connection from "../models/myconnection";
 import { update_post } from "../models/queries";
 
 
-
+//the edit post controller
 export default async function EditPosts(req:Request , res:Response) {
     if(!req.user){
 
