@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { deletePost } from "../../../redux/postSlice";
 import { useAppDispatch } from "../../../redux/hooks";
 
+//for every post , post component
 interface PostComp{
     post : Post;
 }
